@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+    .button {
+      border: #0004;
+      color: white;
+      padding: 14px 30px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 17px;
+      margin: 100px 00px;
+      transition-duration: 0.9s;
+      cursor: pointer;
+    }
+
+    .follow {
+      background-color: blank;
+      color: black;
+      border: 2px solid #4CAF50;
+    }
+
+    .follow:hover {
+      background-color: #4CAF50;
+      color: white;
+    }
+
+    .other {
+      background-color: white;
+      color: black;
+      border: 2px solid #008CBA;
+    }
+
+    .other:hover {
+      background-color: #008CBA;
+      color: white;
+    }
+  </style>
+</head>
+
+<body>
+
+  <button class="button follow">FOLLOW</button>
+  <button class="button other">OTHER</button>
+
+</body>
+
+</html>
+
+<div style="width:1060px;height:1    000px;border:8px solid #000;"></div>
